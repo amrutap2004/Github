@@ -44,7 +44,7 @@ export default function TextForm(props) {
 
         <div className="container" style= {{color : props.mode==='dark'?'white':'black'}}>
             <h2>Text Summary</h2>
-            <p> {text.split(" ").filter((ele)=>{return ele.length !== 0}).length} words and {text.length} characters</p>
+            <p> {text.split(/\s+/).filter((ele)=>{return ele.length !== 0}).length} words and {text.length} characters</p>
             <p> {0.008 * text.split(" ").filter((ele)=>{return ele.length !== 0}).length} Minutes to read</p>
             <h3>Preview</h3>
             <p>{text.length > 0 ? text :"Nothing to Preview."}</p>
@@ -54,3 +54,6 @@ export default function TextForm(props) {
     
   )
 }
+
+
+// /\s+/ is regular expression s means spaces
