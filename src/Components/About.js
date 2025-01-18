@@ -36,41 +36,43 @@ function About(props) {
   return (
     
     <div className='container' style={mystyle}>
-        <h1 className='my-3'>About Us</h1>
+        <h1 className='my-3'>About TextUtils</h1>
+        <p>Welcome to TextUtils – your one-stop solution for all text-related needs!</p>
+        <p>TextUtils is a versatile tool designed to simplify and enhance how you work with text. Whether you're a student, writer, developer, or anyone who deals with text daily, our platform offers a range of features to save you time and effort.</p>
             <div className="accordion" id="accordionExample">
         <div className="accordion-item">
             <h2 className="accordion-header">
             <button className="accordion-button" style={mystyle} type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                Accordion Item #1
+                Text Manipulation
             </button>
             </h2>
             <div id="collapseOne" className="accordion-collapse collapse show" data-bs-parent="#accordionExample">
             <div className="accordion-body" style={mystyle}>
-                <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                <strong>Convert to uppercase/lowercase, capitalize text, or remove extra spaces effortlessly.</strong> 
             </div>
             </div>
         </div>
         <div className="accordion-item">
             <h2 className="accordion-header">
             <button className="accordion-button collapsed" style={mystyle} type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                Accordion Item #2
+                Word and Character Count
             </button>
             </h2>
             <div id="collapseTwo" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
             <div className="accordion-body" style={mystyle}>
-                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                <strong>Quickly analyze the length and structure of your content.</strong> 
             </div>
             </div>
         </div>
         <div className="accordion-item">
             <h2 className="accordion-header">
             <button className="accordion-button collapsed" style={mystyle} type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                Accordion Item #3
+                Text Formatting
             </button>
             </h2>
             <div id="collapseThree" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
             <div className="accordion-body" style={mystyle}>
-                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                <strong>Format text for better readability and alignment.</strong> 
             </div>
             </div>
         </div>
